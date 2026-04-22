@@ -43,7 +43,7 @@ An **integrated analytical platform** combining macroeconomic diagnostics with a
 Development finance professionals at secretariats and member states requiring rapid baseline data compilation (reduces time from ~4 hours to <5 minutes per country).
 
 ### Technical Notes
-- First load may take 3-5 seconds due to serverless cold start
+- First load may take 10-15 seconds due to serverless cold start
 - All modules share unified data pipeline for consistency
 - Built on Vercel for global CDN distribution
 
@@ -95,7 +95,7 @@ Breaks down aggregate "Total Services" trade into **12 detailed EBOPS categories
 
 ### Access
 🔗 **[Launch Explorer](https://trade-in-services-data-explorer-tool.streamlit.app/)**
-
+![Services Trade Explorer](asset/a1.png)
 ![Services Trade Explorer](https://img.shields.io/badge/Stack-Streamlit_|_DuckDB_|_AWS_S3-FF4B4B?style=flat-square)
 
 </details>
@@ -129,7 +129,7 @@ Calculates dependency indices using:
 
 ### Access
 🔗 **[Launch Analyzer](https://services-trade-partner-dependency-analysis.streamlit.app/)**
-
+![Services Trade Explorer](asset/b1.png)
 ![Dependency Tool](https://img.shields.io/badge/Tech-Python_|_Plotly_|_AWS-3776AB?style=flat-square)
 
 </details>
@@ -189,7 +189,23 @@ The same methodology can be applied to:
 
 ### Access
 🔗 **[Launch Monitor](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya)**
+#### 2015 False Color
+![2015](asset/2015_false_color.png)
 
+#### 2025 False Color
+![2025](asset/2025_false_color.png)
+
+#### Mangrove Gain/Loss (2025)
+![Gain Loss](asset/2025_gain_loss.png)
+
+#### ESA Layer Comparison
+![ESA](asset/esa_layover.png)
+
+#### Loss & Gain Map
+![Loss Gain](asset/lossgain.png)
+
+#### Mangrove Change Summary
+![Mangrove Change](asset/mangroves_gain_loss.png)
 ![GEE Application](https://img.shields.io/badge/Platform-Google_Earth_Engine-34A853?style=flat-square)
 ![ML Model](https://img.shields.io/badge/Model-Random_Forest-FF6F00?style=flat-square)
 
