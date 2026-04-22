@@ -50,9 +50,9 @@ Development finance professionals at secretariats and member states requiring ra
 ### Access
 🔗 **[Launch Application](https://economic-analysis-report-generator.vercel.app/)**
 
-![Navigation](assets/i3.png)
-![Macro Analyzer](assets/i1.png)
-![Country Brief Generator](assets/i2.png)
+![Navigation](asset/i3.png)
+![Macro Analyzer](asset/i1.png)
+![Country Brief Generator](asset/i2.png)
 
 </details>
 
