@@ -5,6 +5,7 @@
 [![Economic Analysis](https://img.shields.io/badge/📊_Economic_Analysis-Live-4CAF50?style=for-the-badge)](https://economic-analysis-report-generator.vercel.app/)
 [![Trade Analytics](https://img.shields.io/badge/🌐_Services_Trade_Explorer-Live-2196F3?style=for-the-badge)](https://trade-in-services-data-explorer-tool.streamlit.app/)
 [![Dependency Analysis](https://img.shields.io/badge/📈_Dependency_Tool-Live-FF9800?style=for-the-badge)](https://services-trade-partner-dependency-analysis.streamlit.app/)
+[![Regional Networks](https://img.shields.io/badge/🕸️_Trade_Networks-Live-9C27B0?style=for-the-badge)](https://swaraj1313.github.io/Regional-Trade-Integration/index.html)
 [![Geospatial ML](https://img.shields.io/badge/🛰️_Mangrove_Monitor-Live-009688?style=for-the-badge)](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya)
 
 </div>
@@ -18,6 +19,7 @@
 | [**Economic Analysis Suite**](https://economic-analysis-report-generator.vercel.app/) | Macro analysis & country briefs | React, Vercel | 🟢 Live |
 | [**Services Trade Explorer**](https://trade-in-services-data-explorer-tool.streamlit.app/) | OECD BaTIS data visualization | Streamlit, DuckDB, AWS S3 | 🟢 Live |
 | [**Trade Dependency Analyzer**](https://services-trade-partner-dependency-analysis.streamlit.app/) | Partner concentration metrics | Python, Plotly | 🟢 Live |
+| [**Regional Trade Networks**](https://swaraj1313.github.io/Regional-Trade-Integration/index.html) | Network topology & trade bloc analysis | Python, NetworkX, Plotly, GitHub Pages | 🟢 Live |
 | [**Mangrove Monitor (GEE)**](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya) | Ecological change detection | Google Earth Engine, ML | 🟢 Live |
 
 ---
@@ -129,6 +131,78 @@ Calculates dependency indices using:
 </details>
 
 <details>
+<summary>🕸️ <b>Regional Trade Integration & Network Analysis Dashboard</b> • <i>Graph Theory Applied to Global Trade Architecture</i></summary>
+
+<br>
+
+### Overview
+A research-grade interactive dashboard applying **graph theory and network science** to bilateral trade data — mapping how Asia's trade architecture has structurally evolved from 2000 to 2024, and benchmarking it against African regional integration.
+
+Most trade analysis asks *how much* countries trade. This dashboard asks a fundamentally different question:
+
+> **How is trade structurally organised — and how has that organisation changed over 24 years?**
+
+**Data Source:** IMF Direction of Trade Statistics (DOTS)
+
+### Dashboard Modules
+
+**1. 🕸️ Asia Trade Network 2024**
+Force-directed network graph using **Louvain Community Detection** to identify emergent trade blocs and **Force-Atlas-2** to physically position countries by trade gravity. Three structural communities revealed — a North-East Asian core (China/Japan), an ASEAN manufacturing zone (Singapore, Malaysia as bridges), and a Central Asian periphery.
+
+**2. 🌊 Intra-Regional ASEAN to Asia Sankey**
+Trade Intensity Index-based Sankey diagram mapping how ASEAN's trade energy distributes across broader Asia — distinguishing structurally significant corridors from size-driven relationships.
+
+**3. 📍 Shift in Trade Influence — Asia (2000–2024)**
+Interactive dumbbell chart showing every Asian economy's change in **Eigenvector Centrality** between 2000 and 2024. Distinguishes "Throughway" economies (embedded in value chains, high centrality) from "Endpoint" economies (raw material exporters or final goods importers, low centrality).
+
+| Feature | Vietnam (Central) | India / Pakistan (Peripheral) |
+|---|---|---|
+| FDI Type | Efficiency-seeking (export-oriented) | Market-seeking (domestic consumption) |
+| Shock Absorption | High — diversified partners enable re-routing | Low — reliance on limited corridors |
+| Technology Transfer | High — embedded in global value chains | Low — limited spillovers |
+
+**4. 🏆 Evolution of Trade Hubs — Power Rankings (2000–2024)**
+Animated bump chart of top 10 Asian trade hubs ranked by Eigenvector Centrality across benchmark years. Headline finding: **Vietnam surged to #3 by 2024**, overtaking Taiwan, Singapore, and South Korea — structural confirmation of the "China Plus One" manufacturing shift.
+
+**5. 📐 Asian Trade Network Topology (2000–2024)**
+Tracks Network Density, Clustering Coefficient, and Reciprocity across six benchmark years using binary adjacency networks — isolating structural organisation from trade volumes.
+
+| Year | Network Density | Clustering Coefficient | Reciprocity |
+|---|---|---|---|
+| 2000 | 0.3048 | 0.5996 | 0.5198 |
+| 2024 | 0.4126 | 0.5829 | 0.5448 |
+
+**6. 🌍 Asia vs. Africa Integration Gap & Post-COVID Divergence**
+Comparative structural analysis of intra-regional integration. Africa grew from 0.17 to 0.29 network density over 24 years — but a **post-COVID divergence** is visible where Africa's integration momentum stalled while Asia accelerated to 0.41. The constraint is not the number of countries but the sparseness of economic linkages between them.
+
+### Methodology
+
+| Metric | What It Captures |
+|---|---|
+| **Trade Intensity Index (TII)** | Whether bilateral trade is disproportionately strong relative to both countries' global shares |
+| **Eigenvector Centrality** | Structural influence — quality, not just quantity, of trade connections |
+| **Network Density** | Breadth of integration across the full regional network |
+| **Clustering Coefficient** | Depth of integration — value chain formation and trade bloc cohesion |
+| **Reciprocity** | Balance of trade relationships — mutual vs. one-directional dependence |
+| **Louvain Community Detection** | Algorithmically emergent trade blocs without pre-defined groupings |
+
+### Technical Stack
+- **Network Construction & Analysis**: Python · NetworkX
+- **Community Detection**: python-louvain (Louvain algorithm)
+- **Network Layout**: ForceAtlas2
+- **Visualisations**: Plotly · Pyvis
+- **Data Processing**: Pandas · NumPy
+- **Hosting**: GitHub Pages
+
+### Access
+🔗 **[Launch Dashboard](https://swaraj1313.github.io/Regional-Trade-Integration/index.html)**
+
+![Network Analysis](https://img.shields.io/badge/Stack-Python_|_NetworkX_|_Plotly-9C27B0?style=flat-square)
+![Hosted On](https://img.shields.io/badge/Hosted-GitHub_Pages-181717?style=flat-square&logo=github)
+
+</details>
+
+<details>
 <summary>🛰️ <b>Mangrove Conservation Monitor</b> • <i>Geospatial ML for Ecological Change Detection</i></summary>
 
 <br>
@@ -200,11 +274,12 @@ The same methodology can be applied to:
 | **Frontend** | React, Streamlit |
 | **Backend** | Vercel Serverless, Python |
 | **Data Processing** | DuckDB, Pandas, NumPy |
-| **Cloud Infrastructure** | AWS S3, Vercel CDN |
+| **Network Analysis** | NetworkX, python-louvain, ForceAtlas2 |
+| **Cloud Infrastructure** | AWS S3, Vercel CDN, GitHub Pages |
 | **Geospatial** | Google Earth Engine |
 | **Machine Learning** | Scikit-learn (Random Forest) |
-| **Visualization** | Plotly, Recharts, Leaflet |
-| **APIs** | World Bank, OECD, IMF |
+| **Visualization** | Plotly, Pyvis, Recharts, Leaflet |
+| **APIs** | World Bank, OECD, IMF DOTS |
 
 </div>
 
@@ -220,6 +295,7 @@ The same methodology can be applied to:
 ### Data Freshness
 - **Economic indicators**: Real-time via API (World Bank, IMF)
 - **Trade data**: Annual updates following OECD release cycle
+- **Network analysis**: IMF DOTS (benchmark years 2000–2024)
 - **Satellite imagery**: Weekly updates (Google Earth Engine)
 
 ### Browser Compatibility
@@ -238,7 +314,7 @@ For questions, bug reports, or feature requests, please use the respective appli
 
 <div align="center">
 
-**Last Updated**: January 2025
+**Last Updated**: May 2025
 
 [![Portfolio](https://img.shields.io/badge/View-Full_Portfolio-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/swaraj-s-54a955167/)
 
