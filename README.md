@@ -308,7 +308,7 @@ All tools are optimized for modern browsers:
 
 ## 📬 Feedback & Support
 
-For questions, bug reports, or feature requests, please use the respective application's interface or contact the development team.
+For questions, bug reports, or feature requests, please email info.swarajsingh@gmail.com
 
 ---
 
