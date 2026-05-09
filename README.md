@@ -24,7 +24,7 @@
 | [**Mangrove Monitor (GEE)**](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya) | Ecological change detection | Google Earth Engine, ML | 🟢 Live |
 | [**Macro Policy Simulator**](http://3.229.14.75/) | AI-driven macroeconomic forecasting baselines | React, Flask, Moirai AI | 🟢 Live* |
 
-> ## [**!AVAILIBLITY NOTE for Macro Policy Simulator**]
+> ## 👉 AVAILIBLITY NOTE for Macro Policy Simulator
 > This application requires allocation of dedicated compute resources therefore may not be accessible at all times. It's typically available 📅 Monday–Friday, 🕒 09:00–18:00 IST (UTC+5:30). If the application is temporarily unavailable, or if you would like access outside scheduled hours, kindly contact info.swarajsingh@gmail.com.
 
 ---
