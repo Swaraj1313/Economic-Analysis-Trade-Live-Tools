@@ -7,6 +7,7 @@
 [![Dependency Analysis](https://img.shields.io/badge/📈_Dependency_Tool-Live-FF9800?style=for-the-badge)](https://services-trade-partner-dependency-analysis.streamlit.app/)
 [![Regional Networks](https://img.shields.io/badge/🕸️_Trade_Networks-Live-9C27B0?style=for-the-badge)](https://swaraj1313.github.io/Regional-Trade-Integration/index.html)
 [![Geospatial ML](https://img.shields.io/badge/🛰️_Mangrove_Monitor-Live-009688?style=for-the-badge)](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya)
+[![Macro Simulator](https://img.shields.io/badge/🤖_Macro_Simulator-Live-E91E63?style=for-the-badge)](http://3.229.14.75/)
 
 </div>
 
@@ -21,10 +22,42 @@
 | [**Trade Dependency Analyzer**](https://services-trade-partner-dependency-analysis.streamlit.app/) | Partner concentration metrics | Python, Plotly | 🟢 Live |
 | [**Regional Trade Networks**](https://swaraj1313.github.io/Regional-Trade-Integration/index.html) | Network topology & trade bloc analysis | Python, NetworkX, Plotly, GitHub Pages | 🟢 Live |
 | [**Mangrove Monitor (GEE)**](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya) | Ecological change detection | Google Earth Engine, ML | 🟢 Live |
+| [**Macro Policy Simulator**](http://3.229.14.75/) | AI-driven macroeconomic forecasting baselines | React, Flask, Moirai AI | 🟢 Live* |
+
+*\*Requires allocating compute on AWS; usually active 09:00 AM to 18:00 PM IST on weekdays.*
 
 ---
 
 ## 📚 Detailed Documentation
+
+<details>
+<summary>🤖 <b>Macro Policy Simulator</b> • <i>AI Macroeconomic Forecasting</i></summary>
+
+<br>
+
+### Overview
+An exploratory research and development testbed evaluating zero-shot time series foundation models (TSFMs) for macroeconomic forecasting in developing economies. It evaluates how well large-scale pre-trained AI generalizes to sovereign macroeconomic data compared to conventional baselines like VAR, DSGE, and IMF projections.
+
+### What It Does
+Runs AI-generated macroeconomic baselines for 35 economies (2026–2030) using IMF WEO data as context, placing them alongside IMF reference projections so the two can be directly compared. 
+
+### Key Features
+- **Zero-shot forecasting engine**: Powered by **Moirai** (Salesforce AI), a deep transformer pre-trained on 27 billion time series observations.
+- **Multivariate modeling**: Jointly models 5 macroeconomic variables natively (Real GDP Growth, CPI Inflation, Fiscal Balance, Current Account, Public Debt).
+- **Shock Transmission Engine**: Translates oil price shocks and domestic variable shifts to macroeconomic impacts via elasticity coefficients.
+- **Uncertainty bands**: 500-sample Monte Carlo inference yielding full [p10–p90] probability intervals.
+
+### Architecture
+- **Frontend**: React 19, Vite, Recharts
+- **Backend & AI Engine**: Python, Flask, Moirai (uni2ts), Pandas
+- **Deployment**: AWS EC2 (c7i-flex.large)
+
+### Access
+🔗 **[Launch Simulator](http://3.229.14.75/)**
+
+![Macro Simulator](https://img.shields.io/badge/Stack-React_|_Flask_|_Moirai-E91E63?style=flat-square)
+
+</details>
 
 <details>
 <summary>📊 <b>Economic Analysis Report Generator</b> • <i>Macro Analysis & Country Briefs</i></summary>
@@ -271,15 +304,15 @@ The same methodology can be applied to:
 
 | Category | Technologies |
 |----------|-------------|
-| **Frontend** | React, Streamlit |
-| **Backend** | Vercel Serverless, Python |
+| **Frontend** | React 19, Vite, Streamlit |
+| **Backend** | Vercel Serverless, Python, Flask |
 | **Data Processing** | DuckDB, Pandas, NumPy |
 | **Network Analysis** | NetworkX, python-louvain, ForceAtlas2 |
-| **Cloud Infrastructure** | AWS S3, Vercel CDN, GitHub Pages |
+| **Cloud Infrastructure** | AWS EC2 & S3, Vercel CDN, GitHub Pages |
 | **Geospatial** | Google Earth Engine |
-| **Machine Learning** | Scikit-learn (Random Forest) |
+| **Machine Learning** | Moirai (Time Series Foundation Model), Scikit-learn (Random Forest) |
 | **Visualization** | Plotly, Pyvis, Recharts, Leaflet |
-| **APIs** | World Bank, OECD, IMF DOTS |
+| **APIs** | World Bank, OECD, IMF DOTS, IMF WEO |
 
 </div>
 
@@ -314,7 +347,7 @@ For questions, bug reports, or feature requests, please email info.swarajsingh@g
 
 <div align="center">
 
-**Last Updated**: May 2025
+**Last Updated**: May 2026
 
 [![Portfolio](https://img.shields.io/badge/View-Full_Portfolio-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/swaraj-s-54a955167/)
 
