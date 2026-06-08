@@ -7,7 +7,7 @@
 [![Dependency Analysis](https://img.shields.io/badge/📈_Dependency_Tool-Live-FF9800?style=for-the-badge)](https://services-trade-partner-dependency-analysis.streamlit.app/)
 [![Regional Networks](https://img.shields.io/badge/🕸️_Trade_Networks-Live-9C27B0?style=for-the-badge)](https://swaraj1313.github.io/Regional-Trade-Integration/index.html)
 [![Geospatial ML](https://img.shields.io/badge/🛰️_Mangrove_Monitor-Live-009688?style=for-the-badge)](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya)
-[![Macro Simulator](https://img.shields.io/badge/🤖_Macro_Simulator-Live-E91E63?style=for-the-badge)](http://3.229.14.75/)
+[![Macro Simulator](https://img.shields.io/badge/🤖_Macro_Simulator-Live-E91E63?style=for-the-badge)](http:[//3.229.14.75/](http://3.217.177.12/))
 
 </div>
 
