@@ -1,19 +1,6 @@
 # 🛠️ Analytical Tools & Applications Portfolio
 
 <div align="center">
-
-```markdown
-# 🛠️ Analytical Tools & Applications Portfolio
-
-<div align="center">
-
-
-</div>
-```
-
-
-</div>
-
 ---
 
 ## 🚀 Quick Access Dashboard
