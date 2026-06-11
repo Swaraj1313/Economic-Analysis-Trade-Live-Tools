@@ -22,7 +22,7 @@
 | [**Services Trade Explorer**](https://trade-in-services-data-explorer-tool.streamlit.app/) | OECD BaTIS data visualization | Streamlit, DuckDB, AWS S3 | 🟢 Live |
 | [**Trade Dependency Analyzer**](https://services-trade-partner-dependency-analysis.streamlit.app/) | Partner concentration metrics | Python, Plotly | 🟢 Live |
 | [**Regional Trade Networks**](https://swaraj1313.github.io/Regional-Trade-Integration/index.html) | Network topology & trade bloc analysis | Python, NetworkX, Plotly, GitHub Pages | 🟢 Live |
-| [**Mangrove Monitor (GEE)**](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya) | Ecological change detection | Google Earth Engine, ML | 🟢 Live |
+| [**Mangrove Monitor (GEE)**](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya) | Ecological change detection with Machine Learning| Google Earth Engine, ML | 🟢 Live |
 | [**OSINT Intelligence Platform**](https://osint-dashboard-kxhsy4gvspevhvzvo36ah9.streamlit.app/) | Real-time monitoring & geolocation with AI| Streamlit, AWS Bedrock, GEE, Telegram | 🟢 Live |
 | [**Macro Policy Simulator**](http://3.217.177.12/) | AI-driven macroeconomic forecasting | React, Flask, Moirai AI, VAR, ARIMA | 🟢 Live* |
 
