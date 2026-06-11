@@ -2,13 +2,22 @@
 
 <div align="center">
 
-[![Economic Analysis](https://img.shields.io/badge/📊_Economic_Analysis-Live-4CAF50?style=for-the-badge)](https://economic-analysis-report-generator.vercel.app/)
-[![Trade Analytics](https://img.shields.io/badge/🌐_Services_Trade_Explorer-Live-2196F3?style=for-the-badge)](https://trade-in-services-data-explorer-tool.streamlit.app/)
-[![Dependency Analysis](https://img.shields.io/badge/📈_Dependency_Tool-Live-FF9800?style=for-the-badge)](https://services-trade-partner-dependency-analysis.streamlit.app/)
-[![Regional Networks](https://img.shields.io/badge/🕸️_Trade_Networks-Live-9C27B0?style=for-the-badge)](https://swaraj1313.github.io/Regional-Trade-Integration/index.html)
-[![Geospatial ML](https://img.shields.io/badge/🛰️_Mangrove_Monitor-Live-009688?style=for-the-badge)](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya)
-[![Macro Simulator](https://img.shields.io/badge/🤖_Macro_Simulator-Live-E91E63?style=for-the-badge)](http://3.217.177.12/)
-[![OSINT Platform](https://img.shields.io/badge/🛰️_OSINT_Platform-Live-FF5722?style=for-the-badge)](https://osint-dashboard-kxhsy4gvspevhvzvo36ah9.streamlit.app/)
+```markdown
+# 🛠️ Analytical Tools & Applications Portfolio
+
+<div align="center">
+
+[![Economic Analysis](https://img.shields.io/badge/📊_Economic_Analysis-Live-4CAF50?style=flat-square)](https://economic-analysis-report-generator.vercel.app/)
+[![Trade Analytics](https://img.shields.io/badge/🌐_Services_Trade_Explorer-Live-2196F3?style=flat-square)](https://trade-in-services-data-explorer-tool.streamlit.app/)
+[![Dependency Analysis](https://img.shields.io/badge/📈_Dependency_Tool-Live-FF9800?style=flat-square)](https://services-trade-partner-dependency-analysis.streamlit.app/)
+[![Regional Networks](https://img.shields.io/badge/🕸️_Trade_Networks-Live-9C27B0?style=flat-square)](https://swaraj1313.github.io/Regional-Trade-Integration/index.html)
+[![Geospatial ML](https://img.shields.io/badge/🛰️_Mangrove_Monitor-Live-009688?style=flat-square)](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya)
+[![Macro Simulator](https://img.shields.io/badge/🤖_Macro_Simulator-Live-E91E63?style=flat-square)](http://3.217.177.12/)
+[![OSINT Platform](https://img.shields.io/badge/🛰️_OSINT_Platform-Live-FF5722?style=flat-square)](https://osint-dashboard-kxhsy4gvspevhvzvo36ah9.streamlit.app/)
+
+</div>
+```
+
 
 </div>
 
