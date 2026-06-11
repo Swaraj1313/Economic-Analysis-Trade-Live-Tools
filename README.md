@@ -33,7 +33,7 @@
 ## 📚 Detailed Documentation
 
 <details>
-<summary>🛰️ <b>OSINT Intelligence Platform</b> • <i>Real-Time Multilingual Intelligence Monitoring</i></summary>
+<summary>🛰️ <b>OSINT INTELLIGENCE PLATFORM</b> &nbsp;·&nbsp; <i>Real-Time Multilingual Intelligence Monitoring</i></summary>
 
 <br>
 
@@ -186,7 +186,7 @@ Module 4 - Dashboard
 </details>
 
 <details>
-<summary>🤖 <b>Macro Policy Simulator</b> • <i>AI Macroeconomic Forecasting</i></summary>
+<summary>🤖 <b>MACRO POLICY SIMULATOR</b> &nbsp;·&nbsp; <i>AI Macroeconomic Forecasting</i></summary>
 
 <br>
 
@@ -249,7 +249,7 @@ An equal-weighted average of Moirai, VAR and ARIMA. The IMF projection is delibe
 </details>
 
 <details>
-<summary>📊 <b>Economic Analysis Report Generator</b> • <i>Macro Analysis & Country Briefs</i></summary>
+<summary>📊 <b>ECONOMIC ANALYSIS REPORT GENERATOR</b> &nbsp;·&nbsp; <i>Macro Analysis & Country Briefs</i></summary>
 
 <br>
 
@@ -277,7 +277,7 @@ Development finance professionals at secretariats and member states requiring ra
 </details>
 
 <details>
-<summary>🌐 <b>Services Trade Data Explorer</b> • <i>OECD BaTIS Granular Analysis</i></summary>
+<summary>🌐 <b>SERVICES TRADE DATA EXPLORER</b> &nbsp;·&nbsp; <i>OECD BaTIS Granular Analysis</i></summary>
 
 <br>
 
@@ -319,7 +319,7 @@ Breaks down aggregate "Total Services" trade into 12 detailed EBOPS categories:
 </details>
 
 <details>
-<summary>📈 <b>Trade Partner Dependency Analyzer</b> • <i>Concentration Risk Metrics</i></summary>
+<summary>📈 <b>TRADE PARTNER DEPENDENCY ANALYZER</b> &nbsp;·&nbsp; <i>Concentration Risk Metrics</i></summary>
 
 <br>
 
@@ -353,7 +353,7 @@ Calculates dependency indices using:
 </details>
 
 <details>
-<summary>🕸️ <b>Regional Trade Integration & Network Analysis Dashboard</b> • <i>Graph Theory Applied to Global Trade Architecture</i></summary>
+<summary>🕸️ <b>REGIONAL TRADE INTEGRATION & NETWORK ANALYSIS DASHBOARD</b> &nbsp;·&nbsp; <i>Graph Theory Applied to Global Trade Architecture</i></summary>
 
 <br>
 
@@ -424,8 +424,7 @@ Comparative structural analysis of intra-regional integration. Africa grew from 
 
 </details>
 
-<details>
-<summary>🛰️ <b>Mangrove Conservation Monitor</b> • <i>Geospatial ML for Ecological Change Detection</i></summary>
+<details><summary>🛰️ <b>MANGROVE CONSERVATION MONITOR</b> &nbsp;·&nbsp; <i>Geospatial ML for Ecological Change Detection</i></summary>
 
 <br>
 
