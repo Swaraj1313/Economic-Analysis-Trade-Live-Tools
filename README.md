@@ -8,6 +8,7 @@
 [![Regional Networks](https://img.shields.io/badge/🕸️_Trade_Networks-Live-9C27B0?style=for-the-badge)](https://swaraj1313.github.io/Regional-Trade-Integration/index.html)
 [![Geospatial ML](https://img.shields.io/badge/🛰️_Mangrove_Monitor-Live-009688?style=for-the-badge)](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya)
 [![Macro Simulator](https://img.shields.io/badge/🤖_Macro_Simulator-Live-E91E63?style=for-the-badge)](http://3.217.177.12/)
+[![OSINT Platform](https://img.shields.io/badge/🛰️_OSINT_Platform-Live-FF5722?style=for-the-badge)](https://osint-dashboard-kxhsy4gvspevhvzvo36ah9.streamlit.app/)
 
 </div>
 
@@ -22,6 +23,7 @@
 | [**Trade Dependency Analyzer**](https://services-trade-partner-dependency-analysis.streamlit.app/) | Partner concentration metrics | Python, Plotly | 🟢 Live |
 | [**Regional Trade Networks**](https://swaraj1313.github.io/Regional-Trade-Integration/index.html) | Network topology & trade bloc analysis | Python, NetworkX, Plotly, GitHub Pages | 🟢 Live |
 | [**Mangrove Monitor (GEE)**](https://swaraj1313.users.earthengine.app/view/mangrove-monitor-gazibay-kenya) | Ecological change detection | Google Earth Engine, ML | 🟢 Live |
+| [**OSINT Intelligence Platform**](https://osint-dashboard-kxhsy4gvspevhvzvo36ah9.streamlit.app/) | Real-time intelligence monitoring | Streamlit, AWS Bedrock, GEE, Telegram | 🟢 Live |
 | [**Macro Policy Simulator**](http://3.217.177.12/) | AI-driven macroeconomic forecasting | React, Flask, Moirai AI, VAR, ARIMA | 🟢 Live* |
 
 > ## 👉 AVAILABILITY NOTE for Macro Policy Simulator
@@ -32,7 +34,160 @@
 ## 📚 Detailed Documentation
 
 <details>
-<summary>🧮 <b>Macro Policy Simulator</b> • <i>AI Macroeconomic Forecasting</i></summary>
+<summary>🛰️ <b>OSINT Intelligence Platform</b> • <i>Real-Time Multilingual Intelligence Monitoring</i></summary>
+
+<br>
+
+### Overview
+
+A multilingual real-time intelligence and monitoring platform for open-source data collection, geo-locating events and AI-powered analysis. Built for research and policy contexts including transnational organised crime, disaster response and public health surveillance.
+
+This tool collects and analyses open-source intelligence from public Telegram channels and news sources in real time. It monitors content across multiple languages including Burmese, Thai, Chinese, French and English, translates it automatically and uses AI to flag suspicious activity, classify each message into an intelligence category and score how credible the information is. The platform currently tracks organised crime networks in Southeast Asia including scam compounds, arms dealing and sanctions evasion, alongside active crises such as the Philippines earthquake and the DRC Ebola outbreak. Location intelligence is enriched through satellite data from Google Earth Engine - flood extent and building damage are detected using Sentinel-1 SAR imagery that works through cloud cover, new construction at known compound locations is tracked using Sentinel-2 spectral analysis and vegetation stress for food security monitoring is measured against a five-year baseline. Analysts can explore findings through four views - a live intelligence feed showing flagged messages with AI-generated notes, an interactive network graph mapping relationships between people, organisations and locations extracted from the data, a geographic map plotting incidents by location with colour-coded typology markers and a briefing generator that synthesises collected intelligence into a structured analytical report with recommended actions.
+
+### What It Does
+
+The platform ingests content from public Telegram channels and news sources, translates non-English content natively using AI, classifies each message against a 16-category intelligence typology, scores credibility on four dimensions and surfaces actionable analyst findings through a live dashboard.
+
+**Currently monitoring:**
+- Organised crime and sanctions evasion networks in Southeast Asia (Myanmar, Thailand, Singapore)
+- Disaster response signals (Philippines M7.8 earthquake, June 2026)
+- Public health surveillance (DRC/Uganda Ebola outbreak, WHO PHEIC)
+- Humanitarian events and state actor activity across the Middle East and Africa
+
+**What it can also monitor with channel list updates:**
+- Trafficking recruitment networks and scam compound operations
+- Cryptocurrency laundering and blockchain address tracking
+- Terrorist financing and violent extremism signals
+- Migration and displacement patterns
+- Food security and agricultural stress
+- Any public Telegram channel or news feed in any language
+
+### Dashboard Pages
+
+**Intelligence Feed**
+
+![Intelligence Feed](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/intelligence_feed.png)
+
+The main analyst view. Shows all priority-flagged and AI-flagged messages sorted by composite credibility score. Each card displays the source channel, timestamp, matched keyword, four-dimension credibility scores (src / coh / corr / manip) and the AI analyst note explaining what was flagged and why.
+
+**Credibility score dimensions:**
+- `src` - Source reliability: track record and editorial standards of the channel (1-5)
+- `coh` - Content coherence: whether the claims are specific, internally consistent and verifiable (1-5)
+- `corr` - Corroboration: how many independent sources report the same claim (1-5)
+- `manip` - Manipulation risk: indicators of coordinated inauthentic behaviour or disinformation (1-5, where 5 means lowest risk)
+
+Composite score is a weighted average. 4.0 and above is high credibility. 2.5-3.99 is medium. Below 2.5 is low.
+
+---
+
+**Network Graph**
+
+![Network Graph](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/network_graph.png)
+
+Interactive entity relationship map. Each node is a named entity extracted from messages. Node size reflects mention frequency. Lines between nodes mean those entities appeared together in the same message.
+
+| Colour | Code | Meaning |
+|--------|------|---------|
+| Orange | PERSON | A named individual (e.g. Min Aung Hlaing, Emmanuel Macron) |
+| Blue | ORG | An organisation (e.g. Justice For Myanmar, Hamas, OCHA) |
+| Green | GPE | Geopolitical entity - country, city or territory (e.g. Myanmar, Singapore, Gaza) |
+| Purple | LOC | A physical location (e.g. Golden Triangle, Strait of Hormuz) |
+| Gold/Yellow | NORP | Nationality, religious or political group (e.g. French, Israeli, Palestinian) |
+| Pink | FAC | A facility or building (e.g. KK Park, a specific compound) |
+| Light pink | EVENT | A named event (e.g. World Cup, Operation 9) |
+
+The table beneath the graph shows top entities by mention count. These are not keywords - they are named entities extracted from message text by a language model.
+
+---
+
+**Geographic Map**
+
+![Geographic Map](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/gi_map0.png)
+
+![Geographic Map - OSINT Crime](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/gi_map1.png)
+
+![Geographic Map - Disaster Response](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/gi_map2.png)
+
+Incident markers plotted at known locations extracted from classified messages. Click any marker for details. Larger dots indicate higher credibility.
+
+| Colour | Typology |
+|--------|----------|
+| Red | Arms Dealing |
+| Orange | Sanctions Evasion / Scam Compound Operations |
+| Dark red | Human Trafficking / Forced Labour |
+| Blue-grey | Cyber-enabled Fraud |
+| Purple | Money Laundering / Crypto Laundering |
+| Dark purple | Terrorist Financing |
+| Dark blue | State Actor / Military Activity |
+| Green | Natural Disaster |
+| Light green | Humanitarian Event |
+| Blue | Public Health Event |
+| Pink | Corruption |
+| Grey | Disinformation |
+
+---
+
+**Briefing Generator**
+
+Select a monitoring profile, typology and credibility filter. The platform synthesises all matching classified messages into a structured intelligence brief with six sections: Executive Summary, Key Findings, Entity Analysis, Emerging Patterns, Recommended Actions and Verification Requirements. Download as a text file for distribution.
+
+### Architecture
+
+```
+Telegram channels
+       |
+Module 1 - Ingestion and AI triage
+  Language detection
+  Nova Lite translate + triage (non-English)
+  NER entity extraction (spaCy)
+  Crypto address detection
+  SQLite database
+       |
+Module 2 - Classification and credibility scoring
+  16-category typology classification (Amazon Nova Micro)
+  Four-dimension credibility scoring
+  Cross-message corroboration (sentence-transformers)
+  Actionable flag generation
+       |
+Module 3 - Satellite enrichment (GEE)
+  SAR flood mapping (Sentinel-1)
+  Earthquake damage detection (SAR coherence)
+  Compound construction monitoring (NDBI, Sentinel-2)
+  NDVI anomaly detection (drought/food security)
+       |
+S3 (Parquet)
+       |
+Module 4 - Dashboard
+  Streamlit + Folium + PyVis + Amazon Nova Lite
+```
+
+### Monitoring Profiles
+
+| Profile | Focus | Active channels |
+|---------|-------|----------------|
+| OSINT / Organised Crime | Scam compounds, arms dealing, sanctions evasion, Myanmar | MyanmarNowNews, bnionline, narinjara, khitthitnews |
+| Disaster Response | Earthquakes, floods, cyclones, Philippines | abscbnnews, aljazeeraglobal, bbcworld |
+| Public Health | Outbreaks, epidemics, PHEIC | aljazeeraglobal, bbcworld |
+| Humanitarian / MEAL | Displacement, food insecurity, GBV | aljazeeraglobal, bbcworld |
+| Migration | Border movements, Rohingya, irregular crossings | aljazeeraglobal, MyanmarNowNews |
+
+### Tech Stack
+- Python 3.12, Streamlit, Telethon
+- Amazon Bedrock (Nova Micro and Nova Lite)
+- sentence-transformers, spaCy
+- Google Earth Engine
+- Folium, PyVis
+- AWS S3, PyArrow/Parquet, SQLite
+
+### Access
+🔗 **[Launch Platform](https://osint-dashboard-kxhsy4gvspevhvzvo36ah9.streamlit.app/)**
+
+![OSINT Platform](https://img.shields.io/badge/Stack-Streamlit_|_AWS_Bedrock_|_GEE_|_Telegram-FF5722?style=flat-square)
+
+</details>
+
+<details>
+<summary>🤖 <b>Macro Policy Simulator</b> • <i>AI Macroeconomic Forecasting</i></summary>
 
 <br>
 
@@ -335,9 +490,9 @@ The same methodology can be applied to agriculture (distinguishing between crops
 | **Network Analysis** | NetworkX, python-louvain, ForceAtlas2 |
 | **Cloud Infrastructure** | AWS EC2 & S3, Vercel CDN, GitHub Pages |
 | **Geospatial** | Google Earth Engine |
-| **Machine Learning** | Moirai (Time Series Foundation Model), Scikit-learn (Random Forest) |
-| **Visualization** | Plotly, Pyvis, Recharts, Leaflet |
-| **APIs** | World Bank, OECD, IMF DOTS, IMF WEO DataMapper |
+| **Machine Learning** | Moirai (Time Series Foundation Model), Scikit-learn (Random Forest), Amazon Bedrock (Nova) |
+| **Visualization** | Plotly, Pyvis, Recharts, Leaflet, Folium |
+| **APIs** | World Bank, OECD, IMF DOTS, IMF WEO DataMapper, Telegram |
 
 </div>
 
@@ -355,6 +510,7 @@ The same methodology can be applied to agriculture (distinguishing between crops
 - **Trade data**: Annual updates following OECD release cycle
 - **Network analysis**: IMF DOTS (benchmark years 2000 to 2024)
 - **Satellite imagery**: Weekly updates (Google Earth Engine)
+- **OSINT intelligence**: Near real-time, synced after every ingestion run
 
 ### Browser Compatibility
 All tools are optimized for modern browsers:
