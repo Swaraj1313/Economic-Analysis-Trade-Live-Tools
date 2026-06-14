@@ -65,7 +65,7 @@ The platform ingests content from public Telegram channels and news sources, tra
 
 **Intelligence Feed**
 
-![Intelligence Feed](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/intelligence_feed.png)
+![Intelligence Feed](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/intelligence_feed.png)
 
 The main analyst view. Shows all priority-flagged and AI-flagged messages sorted by composite credibility score. Each card displays the source channel, timestamp, matched keyword, four-dimension credibility scores (src / coh / corr / manip) and the AI analyst note explaining what was flagged and why.
 
