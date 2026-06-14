@@ -449,7 +449,7 @@ Mangroves have a distinct spectral fingerprint because they are simultaneously d
 - ## Visual Outputs
 
 ### 2015 False Color
-![2015](images/2015_false_color.png)
+![2015 False Color](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/2015_false_color.png
 
 ### 2025 False Color
 ![2025](images/2025_false_color.png)
