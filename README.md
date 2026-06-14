@@ -449,16 +449,16 @@ Mangroves have a distinct spectral fingerprint because they are simultaneously d
 - ## Visual Outputs
 
 ### 2015 False Color
-![2015_False_Color](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/2015_false_color.png
+![2015_False_Color](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/2015_false_color.png)
 
 ### 2025 False Color
-![2025](images/2025_false_color.png)
+![2025](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/2025_false_color.png)
 
 ### Mangrove Change (Gain/Loss)
-![Change](images/mangroves_gain_loss.png)
+![Change](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/mangroves_gain_loss.png)
 
 ### ESA Comparison
-![ESA](images/esa_layover.png)
+![ESA](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/esa_layover.png)
 
 ### Outputs
 - **Decadal change detection**: Quantified mangrove loss/recovery (2014 to 2025)
