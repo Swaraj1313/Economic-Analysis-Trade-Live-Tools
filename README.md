@@ -446,6 +446,20 @@ Satellites capture not just visible light but also infrared wavelengths invisibl
 **Unique Mangrove Signature**:
 Mangroves have a distinct spectral fingerprint because they are simultaneously dense vegetation (high NDVI) in a waterlogged environment (high NDWI). The model learns this combination pattern to autonomously classify coastal land cover.
 
+- ## Visual Outputs
+
+### 2015 False Color
+![2015](images/2015_false_color.png)
+
+### 2025 False Color
+![2025](images/2025_false_color.png)
+
+### Mangrove Change (Gain/Loss)
+![Change](images/mangroves_gain_loss.png)
+
+### ESA Comparison
+![ESA](images/esa_layover.png)
+
 ### Outputs
 - **Decadal change detection**: Quantified mangrove loss/recovery (2014 to 2025)
 - **Land cover classification**: Mangroves, water, bare land, other vegetation
