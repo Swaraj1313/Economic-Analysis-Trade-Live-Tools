@@ -81,7 +81,7 @@ Composite score is a weighted average. 4.0 and above is high credibility. 2.5-3.
 
 **Network Graph**
 
-![Network Graph](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/network_graph.png)
+![Network Graph](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/network_graph.png)
 
 Interactive entity relationship map. Each node is a named entity extracted from messages. Node size reflects mention frequency. Lines between nodes mean those entities appeared together in the same message.
 
@@ -101,11 +101,11 @@ The table beneath the graph shows top entities by mention count. These are not k
 
 **Geographic Map**
 
-![Geographic Map](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/gi_map0.png)
+![Geographic Map](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/gi_map0.png)
 
-![Geographic Map - OSINT Crime](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/gi_map1.png)
+![Geographic Map - OSINT Crime](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/gi_map1.png)
 
-![Geographic Map - Disaster Response](https://raw.githubusercontent.com/Swaraj1313/osint-dashboard/main/pics/gi_map2.png)
+![Geographic Map - Disaster Response](https://raw.githubusercontent.com/Swaraj1313/Economic-Analysis-Trade-Live-Tools/main/asset/gi_map2.png)
 
 Incident markers plotted at known locations extracted from classified messages. Click any marker for details. Larger dots indicate higher credibility.
 
