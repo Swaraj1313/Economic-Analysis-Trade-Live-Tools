@@ -26,7 +26,7 @@
 | [**Macro Policy Simulator**](http://3.217.177.12/) | AI-driven macroeconomic forecasting | React, Flask, Moirai AI, VAR, ARIMA | 🟢 Live* |
 
 > ## 👉 AVAILABILITY NOTE for Macro Policy Simulator
-> It takes around 120 seconds for it to process if you see "SYNTHESIZING VECTORS" its working. This application requires allocation of dedicated compute resources therefore may not be accessible at all times. It is typically available 📅 Monday to Friday, 🕒 09:00 to 18:00 IST (UTC+5:30). If the application is temporarily unavailable, or if you would like access outside scheduled hours, kindly contact info.swarajsingh@gmail.com.
+> It takes around 120 seconds for it to process if you see "SYNTHESIZING VECTORS" its working. This application requires allocation of dedicated compute resources therefore may not be accessible at all times. It is typically available 📅 Monday to Friday, 🕒 08:00 to 15:30 IST (UTC+5:30). If the application is temporarily unavailable, or if you would like access outside scheduled hours, kindly contact info.swarajsingh@gmail.com.
 
 ---
 
